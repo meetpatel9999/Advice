@@ -1,0 +1,60 @@
+footer{
+    background-color: rgb(166, 168, 176);
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.socials {
+    display: flex;
+    justify-content: center;
+}
+a {
+    margin: 0.5rem;
+    padding: 1rem;
+    border: 0.2rem solid black;
+    border-radius: 40%;
+    justify-content: center;
+    width: 1rem;
+    height: 1rem;
+    background-color: rgb(147, 189, 197);
+    color: black;
+}
+a:hover {
+    background-color:white;
+
+}
+.footer__copyright {
+    text-align: center;
+    font-family: Comfortaa;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.instruction {
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-decoration-line: underline;
+}
+
+
+/*========================Media queries medium device ===========*/
+
+@media screen and (max-width: 1024px) {
+
+    .instruction {
+        font-size: 20px;
+    }
+
+}
+
+/* ================Media Queries (SMALL DEVICES) ==================== */
+
+@media screen and (max-width: 600px) {
+   
+}
+
